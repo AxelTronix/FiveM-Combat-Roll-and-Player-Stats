@@ -15,7 +15,7 @@ Its currently at 120 (Which i recommend) If you want it to be quicker just incre
 <!-- CONTACT -->
 ## Contact
 
--Tronix 
+- Tronix 
 
 Discords: 
 
