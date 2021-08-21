@@ -25,3 +25,4 @@ Discords:
 
 [Sin RP Discord](https://discord.gg/sinrp)
 
+# Player Stats
