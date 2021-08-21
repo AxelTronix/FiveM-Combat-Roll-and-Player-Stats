@@ -1,6 +1,14 @@
-Config.Cooldown = 120 --Timer
 
-for i = 0, 3 do
-    StatSetInt(GetHashKey("mp" .. i .. "_shooting_ability"), Config.Cooldown, true)
-    StatSetInt(GetHashKey("sp" .. i .. "_shooting_ability"), Config.Cooldown, true)
-  end
+-- Set player stats
+local a = {
+	'MP0_STAMINA',
+	'MP0_STRENGTH',
+	'MP0_LUNG_CAPACITY',
+	'MP0_WHEELIE_ABILITY',
+	'MP0_FLYING_ABILITY',
+	'MP0_SHOOTING_ABILITY',
+	'MP0_STEALTH_ABILITY'
+}
+for _, s in ipairs(a) do
+	StatSetInt(s, Config.Cooldown, true)
+end
