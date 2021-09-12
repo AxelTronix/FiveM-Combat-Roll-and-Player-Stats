@@ -1,5 +1,5 @@
 
-local Cooldown = 0 
+local Cooldown = 120
 
 -- Set player stats
 local a = {
