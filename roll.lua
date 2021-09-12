@@ -1,4 +1,6 @@
 
+local Cooldown = 0 
+
 -- Set player stats
 local a = {
 	'MP0_STAMINA',
@@ -10,5 +12,5 @@ local a = {
 	'MP0_STEALTH_ABILITY'
 }
 for _, s in ipairs(a) do
-	StatSetInt(s, Config.Cooldown, true)
+	StatSetInt(s, Cooldown, true)
 end
